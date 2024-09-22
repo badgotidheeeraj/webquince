@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>contact-us</title>
+</head>
+
+<body class="bg-gray-50">
+    <header class="bg-yellow-400 py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-3xl font-bold text-blue-800">Web Quince</div>
+            <nav class="space-x-6 text-white">
+                <a href="index.html" class="hover:text-gray-200">Digital Marketing</a>
+                <a href="#" class="hover:text-gray-200">Development</a>
+                <a href="#" class="hover:text-gray-200">Packages</a>
+                <a href="#" class="hover:text-gray-200">Reseller</a>
+                <a href="contact-us.html" class="hover:text-gray-200">Contact Us</a>
+            </nav>
+            <div class="space-x-4">
+                <button class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">Book a Call</button>
+                <button class="bg-yellow-600 text-white px-4 py-2 rounded-md hover:bg-yellow-700">Free Website
+                    Audit</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-yellow-300 py-6">
+        <div class="container mx-auto flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2">
+                <h1 class="text-5xl font-bold text-blue-900">Digital Marketing Agency in India</h1>
+                <p class="text-lg text-gray-700 mt-4">Boost your business with the best digital marketing agency. We've
+                    driven success in eCommerce, manufacturing, and more.</p>
+                <button class="mt-6 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">Get Free
+                    Consultation</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="bg-gray-100 py-16">
+        <div class="container mx-auto px-4">
+            <div class="max-w-2xl mx-auto bg-white shadow-lg rounded-lg p-8">
+                <h2 class="text-3xl font-bold text-center text-blue-900 mb-6">Contact Us</h2>
+
+                <form action="#" method="POST">
+                    <!-- Name Field -->
+                    <div class="mb-4">
+                        <label for="name" class="block text-lg font-medium text-gray-700">Name</label>
+                        <input type="text" id="name" name="name"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring focus:border-blue-500"
+                            placeholder="Your Name" required>
+                    </div>
+
+                    <!-- Email Field -->
+                    <div class="mb-4">
+                        <label for="email" class="block text-lg font-medium text-gray-700">Email</label>
+                        <input type="email" id="email" name="email"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring focus:border-blue-500"
+                            placeholder="Your Email" required>
+                    </div>
+
+                    <!-- Subject Field -->
+                    <div class="mb-4">
+                        <label for="subject" class="block text-lg font-medium text-gray-700">Subject</label>
+                        <input type="text" id="subject" name="subject"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring focus:border-blue-500"
+                            placeholder="Subject" required>
+                    </div>
+
+                    <!-- Message Field -->
+                    <div class="mb-6">
+                        <label for="message" class="block text-lg font-medium text-gray-700">Message</label>
+                        <textarea id="message" name="message" rows="5"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring focus:border-blue-500"
+                            placeholder="Your Message" required></textarea>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="text-center">
+                        <button type="submit"
+                            class="bg-blue-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">Send
+                            Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
