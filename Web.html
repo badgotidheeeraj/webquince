@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Development - Web Quince</title>
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body class="bg-gray-50">
-
     <!-- Header Section -->
     <header class="bg-yellow-400 py-4 shadow-md">
         <div class="container mx-auto flex justify-between items-center">
@@ -28,16 +30,15 @@
             </nav>
 
             <!-- Call-to-Action Buttons -->
-            <div class="hidden md:flex space-x-4">
-                <button class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">Book a Call</button>
-                <button class="bg-yellow-600 text-white px-4 py-2 rounded-md hover:bg-yellow-700">Free Website Audit</button>
-            </div>
+
 
             <!-- Mobile Navigation -->
             <div class="md:hidden">
                 <button id="mobile-menu-button" class="focus:outline-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7" />
                     </svg>
                 </button>
             </div>
@@ -52,95 +53,93 @@
                 <a href="reseller.html" class="block hover:text-gray-800">Reseller</a>
                 <a href="contact-us.html" class="block hover:text-gray-800">Contact Us</a>
                 <div class="space-y-4">
-                    <button class="bg-blue-600 text-white w-full px-4 py-2 rounded-md hover:bg-blue-700">Book a Call</button>
-                    <button class="bg-yellow-600 text-white w-full px-4 py-2 rounded-md hover:bg-yellow-700">Free Website Audit</button>
+                    <button class="bg-blue-600 text-white w-full px-4 py-2 rounded-md hover:bg-blue-700">Book a
+                        Call</button>
+                    <button class="bg-yellow-600 text-white w-full px-4 py-2 rounded-md hover:bg-yellow-700">Free
+                        Website Audit</button>
                 </div>
             </nav>
         </div>
     </header>
 
     <!-- Main Content Section -->
-    <main>
-        <!-- Hero Section -->
-        <section class="relative bg-cover bg-center py-20" style="background-image: url('https://www.proglobalbusinesssolutions.com/wp-content/uploads/2019/03/Photography-Web-Banner.jpg');">
-            <div class="absolute inset-0 bg-blue-900 opacity-50"></div>
-            <div class="container mx-auto relative z-10 text-center">
-                <h1 class="text-5xl font-bold text-white">Professional Website Development Services</h1>
-                <p class="text-lg text-white mt-4">We build modern, responsive, and highly engaging websites tailored to your business needs.</p>
-                <button class="mt-6 bg-yellow-500 text-blue-900 px-8 py-3 rounded-lg shadow-lg hover:bg-yellow-600">Start Your Project</button>
-            </div>
-        </section>
 
-        <!-- Service Details Section -->
-        <section class="py-16 bg-white">
-            <div class="container mx-auto">
-                <h2 class="text-4xl font-bold text-center text-gray-900">Our Website Development Services</h2>
-                <p class="text-lg text-gray-700 text-center mt-6">We offer a wide range of website development services, ensuring that your business has an effective online presence.</p>
-
-                <!-- Service Cards Grid -->
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-                    <!-- Card 1: Custom Web Development -->
-                    <div class="bg-yellow-100 p-6 rounded-lg shadow-lg">
-                        <img src="https://via.placeholder.com/300x200" alt="Custom Web Development" class="w-full h-48 object-cover rounded-md mb-4">
-                        <h3 class="text-2xl font-bold text-gray-900">Custom Web Development</h3>
-                        <p class="text-gray-700 mt-4">Tailored solutions for your business, built from the ground up to meet your unique needs.</p>
-                    </div>
-
-                    <!-- Card 2: E-commerce Solutions -->
-                    <div class="bg-yellow-100 p-6 rounded-lg shadow-lg">
-                        <img src="https://th.bing.com/th/id/OIP.QVo-EaqM9CAOgRqL7tYzbwAAAA?rs=1&pid=ImgDetMain" alt="E-commerce Solutions" class="w-full h-48 object-cover rounded-md mb-4">
-                        <h3 class="text-2xl font-bold text-gray-900">E-commerce Solutions</h3>
-                        <p class="text-gray-700 mt-4">Fully-featured e-commerce websites with secure payment gateways and seamless shopping experiences.</p>
-                    </div>
-
-                    <!-- Card 3: CMS Development -->
-                    <div class="bg-yellow-100 p-6 rounded-lg shadow-lg">
-                        <img src="https://openfox.in/wp-content/uploads/2021/07/cms-website-development.png" alt="CMS Development" class="w-full h-48 object-cover rounded-md mb-4">
-                        <h3 class="text-2xl font-bold text-gray-900">CMS Development</h3>
-                        <p class="text-gray-700 mt-4">We create powerful content management systems (CMS) for easy updates and management of your website content.</p>
-                    </div>
+    <!-- Service Details Section -->
+    <section class="py-5 bg-white">
+        <!-- Service Cards Grid -->
+        <div class="row mx-5 px-5"  >
+            <div class="col-8 px-3 ">
+                <div class="p-6 rounded-lg shadow-lg">
+                    <h3 class="text-3xl font-bold text-gray-900">Custom Web Development</h3>
+                    <p class="text-gray-700 mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        </p>
+                </div>
+                <div class=" p-4 rounded-lg shadow-lg">
+                    <img src="https://via.placeholder.com/300x200" alt="Custom Web Development"
+                        class="w-full h-35 object-cover rounded-md mb-4">
+                    <h3 class="text-2xl font-bold text-gray-900">Custom Web Development</h3>
+                    <p class="text-gray-700 mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
+                        praesentium tenetur, quod eligendi fugiat, necessitatibus at aut error, maxime vel
+                        doloribus. Veritatis aliquid ipsam nobis in atque cum tempora quas, facere eligendi corrupti
+                        incidunt explicabo quos eius laborum sapiente assumenda, amet minima fugit adipisci
+                        reprehenderit modi veniam maxime. Vitae, beatae rerum! Inventore numquam culpa ipsam
+                        asperiores explicabo architecto, quo, commodi, doloremque consectetur perspiciatis sint id!
+                        Praesentium fuga, amet minus sed, asperiores consequuntur dolore earum cumque optio ab
+                        tempore culpa quos reiciendis molestiae assumenda. Numquam velit corporis totam, cumque
+                        dolorem consectetur. Non nisi omnis amet maxime voluptates consequuntur cumque, vel at cum
+                        aliquid quis ea tempore labore, veritatis cupiditate rem eos ut accusantium maiores. Harum
+                        dolor molestiae saepe ipsum aliquid tempore odio cupiditate eveniet asperiores eligendi
+                        sequi earum perferendis iure, doloribus rerum animi quibusdam quas natus dolorem dicta.
+                        Placeat corrupti, cumque, iusto magni exercitationem dignissimos nemo numquam nihil
+                        inventore sunt, molestias velit mollitia quis perspiciatis libero qui ratione dolorum
+                        voluptate temporibus! Ad voluptatibus nihil itaque incidunt laboriosam commodi quidem, sit
+                        porro laborum nemo a illum amet nulla rerum beatae soluta impedit natus quaerat. Est eaque
+                        voluptas saepe ipsam. Maiores ab repellat libero, aperiam ad itaque nobis, nesciunt
+                        assumenda eligendi reprehenderit alias. .</p>
+                </div>
+                <div class=" p-4 rounded-lg shadow-lg">
+                    <img src="https://via.placeholder.com/300x200" alt="Custom Web Development"
+                        class="w-full h-35 object-cover rounded-md mb-4">
+                    <h3 class="text-2xl font-bold text-gray-900">Merite Demerist</h3>
+                    <p class="text-gray-700 mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
+                        praesentium tenetur, quod eligendi fugiat, necessitatibus at aut error, maxime vel
+                        doloribus. Veritatis aliquid ipsam nobis in atque cum tempora quas, facere eligendi corrupti
+                        incidunt explicabo quos eius laborum sapiente assumenda, amet minima fugit adipisci
+                        reprehenderit modi veniam maxime. Vitae, beatae rerum! Inventore numquam culpa ipsam
+                        asperiores explicabo architecto, quo, commodi, doloremque consectetur perspiciatis sint id!
+                        Praesentium fuga, amet minus sed, asperiores consequuntur dolore earum cumque optio ab
+                        tempore culpa quos reiciendis molestiae assumenda. Numquam velit corporis totam, cumque
+                        dolorem consectetur. Non nisi omnis amet maxime voluptates consequuntur cumque, vel at cum
+                        aliquid quis ea tempore labore, veritatis cupiditate rem eos ut accusantium maiores. Harum
+                        dolor molestiae saepe ipsum aliquid tempore odio cupiditate eveniet asperiores eligendi
+                        sequi earum perferendis iure, doloribus rerum animi quibusdam quas natus dolorem dicta.
+                        Placeat corrupti, cumque, iusto magni exercitationem dignissimos nemo numquam nihil
+                        inventore sunt, molestias velit mollitia quis perspiciatis libero qui ratione dolorum
+                        voluptate temporibus! Ad voluptatibus nihil itaque incidunt laboriosam commodi quidem, sit
+                        porro laborum nemo a illum amet nulla rerum beatae soluta impedit natus quaerat. Est eaque
+                        voluptas saepe ipsam. Maiores ab repellat libero, aperiam ad itaque nobis, nesciunt
+                        assumenda eligendi reprehenderit alias. .</p>
                 </div>
             </div>
-        </section>
-
-        <!-- Process Section -->
-        <section class="py-16 bg-gray-100">
-            <div class="container mx-auto">
-                <h2 class="text-4xl font-bold text-center text-gray-900">Our Web Development Process</h2>
-                <p class="text-lg text-gray-700 text-center mt-6">Our development process ensures your website is built to the highest standards, from planning to launch.</p>
-
-                <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mt-12">
-                    <!-- Step 1: Planning -->
-                    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
-                        <img src="https://via.placeholder.com/100" alt="Planning" class="mx-auto mb-4">
-                        <h3 class="text-2xl font-bold text-gray-900">1. Planning</h3>
-                        <p class="text-gray-700 mt-4">We work with you to define your goals, target audience, and key website features.</p>
-                    </div>
-
-                    <!-- Step 2: Design -->
-                    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
-                        <img src="https://via.placeholder.com/100" alt="Design" class="mx-auto mb-4">
-                        <h3 class="text-2xl font-bold text-gray-900">2. Design</h3>
-                        <p class="text-gray-700 mt-4">Our design team creates a visually appealing and user-friendly website layout.</p>
-                    </div>
-
-                    <!-- Step 3: Development -->
-                    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
-                        <img src="https://via.placeholder.com/100" alt="Development" class="mx-auto mb-4">
-                        <h3 class="text-2xl font-bold text-gray-900">3. Development</h3>
-                        <p class="text-gray-700 mt-4">We develop the website using the latest technologies, ensuring performance and security.</p>
-                    </div>
-
-                    <!-- Step 4: Launch & Support -->
-                    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
-                        <img src="https://via.placeholder.com/100" alt="Launch" class="mx-auto mb-4">
-                        <h3 class="text-2xl font-bold text-gray-900">4. Launch & Support</h3>
-                        <p class="text-gray-700 mt-4">After thorough testing, we launch the site and provide ongoing support and maintenance.</p>
-                    </div>
+            <div class="col-4">
+                <div class="col-md-4"></div>
+                <div class="p-4 bg-white shadow-sm rounded">
+                    <h4 class="text-primary">Additional Services</h4>
+                    <ul class="list-unstyled mt-4">
+                        <li class="mb-3">
+                            <a href="#" class="text-decoration-none text-dark">Service 1</a>
+                        </li>
+                        <li class="mb-3">
+                            <a href="#" class="text-decoration-none text-dark">Service 2</a>
+                        </li>
+                        <li class="mb-3">
+                            <a href="#" class="text-decoration-none text-dark">Service 3</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
     <!-- Footer Section -->
     <footer class="bg-blue-900 text-white py-12">
@@ -149,7 +148,8 @@
             <!-- Company Info Section -->
             <div>
                 <h2 class="text-2xl font-bold">Web Quince</h2>
-                <p class="mt-4 text-gray-300">We are a top digital marketing agency in India, offering personalized
+                <p class="mt-4 text-gray-300">We are a top digital marketing agency in India, offering
+                    personalized
                     solutions to drive results for businesses worldwide.</p>
                 <p class="mt-4">&copy; 2024 Web Quince. All rights reserved.</p>
             </div>
@@ -183,7 +183,8 @@
                 <h3 class="text-xl font-bold mb-4">Contact Us</h3>
                 <p class="text-gray-300 mb-2">Email: <a href="mailto:info@webquince.com"
                         class="hover:text-gray-300">info@webquince.com</a></p>
-                <p class="text-gray-300 mb-4">Phone: <a href="tel:+911234567890" class="hover:text-gray-300">+91 123 456
+                <p class="text-gray-300 mb-4">Phone: <a href="tel:+911234567890" class="hover:text-gray-300">+91
+                        123 456
                         7890</a></p>
 
                 <!-- Newsletter Form -->
@@ -225,7 +226,7 @@
         // Toggle mobile menu
         const menuButton = document.getElementById('mobile-menu-button');
         const mobileMenu = document.getElementById('mobile-menu');
-        
+
         menuButton.addEventListener('click', () => {
             mobileMenu.classList.toggle('hidden');
         });
